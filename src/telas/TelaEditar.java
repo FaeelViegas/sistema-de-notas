@@ -245,11 +245,11 @@ public final class TelaEditar extends javax.swing.JFrame {
             float nota1 = Float.parseFloat(txtNota1.getText());
             float nota2 = Float.parseFloat(txtNota2.getText());
             float media = (nota1 + nota2) / 2;
-            if (recuperacao > 7) {
+            if (recuperacao >= 7) {
                 aprovado = true;
             }
 
-            if (media > 7) {
+            if (media >= 7) {
                 aprovado = true;
             }
 

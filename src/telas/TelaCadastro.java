@@ -176,7 +176,7 @@ public class TelaCadastro extends javax.swing.JFrame {
             float nota2 = Float.parseFloat(txtNota2.getText());
             float media = (nota1 + nota2) / 2;
             boolean aprovado = false;
-            if (media > 7) {
+            if (media >= 7) {
                 aprovado = true;
             }
 
